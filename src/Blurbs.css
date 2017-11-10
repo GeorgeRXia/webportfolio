@@ -1,0 +1,103 @@
+/*.articleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 30px;
+}*/
+
+.blurbDiv {
+    /*justify-content: space-around;*/
+    margin: 20px 50px 10px 50px;
+    display: block;
+    background-color: white;
+    opacity: 0.8;
+    border: 3px solid black;
+    border-radius: 75px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 20px 20px 20px -6px #666666;
+
+}
+
+.blurbDiv:hover{
+    transform:scale(1.08);
+    transition: all 1s ease;
+    box-shadow: 20px 20px 20px -6px #666666;
+
+}
+
+.blurbTitle {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 1px 1px #666666;
+    text-decoration: underline;
+}
+
+.blurbExtra {
+    color: black;
+    font-size: 1.1rem;
+    line-height: 1.4375rem;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    vertical-align: baseline;
+    margin: 15px;
+    text-shadow: 1px 1px white;
+    text-align: left;
+}
+
+.blurbContent {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+    vertical-align: baseline;
+    margin: 20px;
+    margin-bottom: 5%;
+    font-style: italic;
+    text-align: left;
+}
+.blurbContact{
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: black;
+  text-shadow: 1px 1px #666666;
+  text-decoration: underline;
+
+}
+.blurbMobileContact{
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: black;
+  text-shadow: 1px 1px #666666;
+  text-decoration: underline;
+
+
+}
+ul{
+  list-style: none;
+}
+/*@media all and (max-width: 767px) {
+  .blurbContact{
+    font-size: 11px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .blurbContact{
+    font-size: 6px;
+
+  }
+}*/
